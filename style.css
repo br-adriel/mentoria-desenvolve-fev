@@ -1,6 +1,13 @@
 /* Importação de fonte via Google Fonts --------- */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+:root {
+  --card-bg: #fff;
+  --bg: #364372;
+  --btn-border: #264fec;
+  font-size: 16px;
+}
+
 /* Reset básico --------- */
 * {
   margin: 0;
@@ -10,7 +17,7 @@
 
 /* Body --------- */
 body {
-  background-color: #33475b;
+  background-color: var(--bg);
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -54,4 +61,51 @@ header {
 
 ::placeholder {
   color: #ff97d3;
+}
+
+/* main */
+
+main {
+  width: min(100%, 1280px);
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 4px;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card h2 {
+  color: var(--bg);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+}
+
+.card p {
+  margin-bottom: 16px;
+}
+
+.card__content {
+  flex-grow: 1;
+}
+
+.botao {
+  border: 1px solid var(--btn-border);
+  color: var(--btn-border);
+  border-radius: 4px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 0.87rem;
 }
