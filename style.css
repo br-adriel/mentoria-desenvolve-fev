@@ -1,0 +1,57 @@
+/* Importação de fonte via Google Fonts --------- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/* Reset básico --------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body --------- */
+body {
+  background-color: #33475b;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Header --------- */
+header {
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.container-elementos-header {
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.titulo-principal {
+  font-size: 24px;
+  color: #0000ee;
+  font-weight: 400;
+}
+
+.label-pesquisa {
+  background-color: #db1e8c;
+  height: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 4px;
+}
+
+.input-pesquisa {
+  background-color: transparent;
+  padding: 4px;
+  border: none;
+}
+
+::placeholder {
+  color: #ff97d3;
+}
