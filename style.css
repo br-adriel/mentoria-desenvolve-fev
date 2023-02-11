@@ -19,6 +19,9 @@
 body {
   background-color: var(--bg);
   font-family: 'IBM Plex Sans', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header --------- */
@@ -108,4 +111,37 @@ main {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 0.87rem;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  margin-top: auto;
+  background-color: #fff;
+  padding: 10px;
+}
+
+footer .container {
+  width: min(100%, 1280px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 0.87rem;
+  color: #000;
+}
+
+.footer__links-programa {
+  display: flex;
+  flex-direction: column;
 }
