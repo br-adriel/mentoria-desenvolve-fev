@@ -1,12 +1,16 @@
-<img align="right" src="https://media.tenor.com/DimzPZMypFcAAAAM/laptop.gif" alt="Gif gatinho">
+# Desafio de implementação de página
 
-### Desafio: Criando o footer da página
-<hr>
+Resolução do [desafio lançado durante a mentoria](https://github.com/milenaemmert/desenvolve-fullstack) do dia 10/09/2023 de um programa educacional o qual eu
+participei.
 
+O desafio consistia na implementação de um layout de página disponibilizado no
+Figma usando HTML e CSS.
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-⚠️ Crie a `<main>` e o `<footer>` da página seguindo as instruções que se encontram no [Notion](https://milenaemmert.notion.site/Desafio-Criando-o-Footer-da-p-gina-a87c70459fb942aba9b62cc952a17128).
+## Executando o projeto localmente
 
-Compartilhe seus resultados com seus colegas! 
+1. Baixe os arquivos de projeto na sua máquina
 
-Bons estudos! 😊💕
+2. Abra o arquivo `index.html` usando o navegador
